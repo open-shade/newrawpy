@@ -286,6 +286,12 @@ jobs:
           python-arch: 'x86_64'
           python-version: '3.7'
           numpy-version: '1.14.*'
+        - os-image: [ self-hosted, macOS, ARM64 ]
+          os-name: mac
+          macos-min-version: '10.9'
+          python-arch: 'arm64'
+          python-version: '3.9'
+          numpy-version: '1.24.*'
         - os-image: macos-latest
           os-name: mac
           macos-min-version: '10.9'
