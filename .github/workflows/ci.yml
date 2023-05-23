@@ -37,67 +37,67 @@ jobs:
       matrix:
         config:
         # NOTE: When updating this list, also update the 'test' job!
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.7'
-          numpy-version: '1.14.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.8'
-          numpy-version: '1.17.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.9'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.10'
-          numpy-version: '1.21.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.11'
-          numpy-version: '1.23.*'
-
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.7'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.8'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.9'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.10'
-          numpy-version: '1.21.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.11'
-          numpy-version: '1.23.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.7'
+#          numpy-version: '1.14.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.8'
+#          numpy-version: '1.17.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.9'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.10'
+#          numpy-version: '1.21.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.11'
+#          numpy-version: '1.23.*'
+#
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.7'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.8'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.9'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.10'
+#          numpy-version: '1.21.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.11'
+#          numpy-version: '1.23.*'
 
         - os-image: macos-latest
           os-name: mac
@@ -218,67 +218,67 @@ jobs:
         # GitHub Actions doesn't support YAML anchors,
         # so this has to be duplicated here.
         config:
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.7'
-          numpy-version: '1.14.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.8'
-          numpy-version: '1.17.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.9'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.10'
-          numpy-version: '1.21.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_x86_64
-          python-arch: 'x86_64'
-          python-version: '3.11'
-          numpy-version: '1.23.*'
-
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.7'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.8'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.9'
-          numpy-version: '1.19.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.10'
-          numpy-version: '1.21.*'
-        - os-image: ubuntu-latest
-          os-name: linux
-          docker-image: quay.io/pypa/manylinux2014_aarch64
-          python-arch: 'aarch64'
-          python-version: '3.11'
-          numpy-version: '1.23.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.7'
+#          numpy-version: '1.14.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.8'
+#          numpy-version: '1.17.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.9'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.10'
+#          numpy-version: '1.21.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_x86_64
+#          python-arch: 'x86_64'
+#          python-version: '3.11'
+#          numpy-version: '1.23.*'
+#
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.7'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.8'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.9'
+#          numpy-version: '1.19.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.10'
+#          numpy-version: '1.21.*'
+#        - os-image: ubuntu-latest
+#          os-name: linux
+#          docker-image: quay.io/pypa/manylinux2014_aarch64
+#          python-arch: 'aarch64'
+#          python-version: '3.11'
+#          numpy-version: '1.23.*'
 
         - os-image: macos-latest
           os-name: mac
