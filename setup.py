@@ -284,7 +284,7 @@ extensions = cythonize([Extension("rawpy._rawpy",
 exec(open('rawpy/_version.py').read())
 
 setup(
-      name = 'rawpy',
+      name = 'newrawpy',
       version = __version__,
       description = 'RAW image processing for Python, a wrapper for libraw',
       long_description = open('README.md').read(),
