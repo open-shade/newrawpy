@@ -101,5 +101,5 @@ ${PYBIN}/python setup.py bdist_wheel --dist-dir dist-tmp
 
 # Bundle external shared libraries into wheel and fix the wheel tags
 mkdir dist
-auditwheel repair dist-tmp/rawpy*.whl -w dist
+auditwheel repair dist-tmp/newrawpy*.whl -w dist
 ls -al dist
