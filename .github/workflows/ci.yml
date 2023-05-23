@@ -414,4 +414,4 @@ jobs:
     - name: Upload wheels to PyPI
       run: |
         pip install twine
-        twine upload -u __token__ -p ${{ secrets.PYPI_TOKEN }} --skip-existing --repository newrawpy dist/*
+        twine upload -u __token__ -p ${{ secrets.PYPI_TOKEN }} dist/*
