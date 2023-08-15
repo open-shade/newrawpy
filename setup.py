@@ -291,7 +291,7 @@ setup(
       long_description_content_type='text/markdown',
       author = 'Maik Riechert',
       author_email = 'maik.riechert@arcor.de',
-      url = 'https://github.com/letmaik/rawpy',
+      url = 'https://github.com/open-shade/newrawpy',
       classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
